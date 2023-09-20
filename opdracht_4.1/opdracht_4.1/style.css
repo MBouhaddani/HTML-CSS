@@ -1,0 +1,64 @@
+h1 {
+    font-size: 24px;
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 20px;
+    color: #0000ff;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 16px;
+    color: teal;
+    font-weight: bold;
+}
+
+p {
+    color: #4D4D4D;
+}
+
+p:first-of-type {
+    font-weight: bold;
+}
+
+a {
+    color: #8A2BE2;
+    text-decoration: none;
+}
+
+
+header {
+    width: 100vw;
+    height: 33vh;
+    background-image: url('header-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header h1, header p {
+    color: #ffffff; /* Verander deze kleur naar een kleur die past bij uw achtergrondafbeelding */
+}
+
+img {
+    width: 50vw;
+}
+
+article {
+    border: 2px solid #000000; /* Verander deze kleur naar een kleur naar keuze */
+    border-radius: 10px; /* Verander deze waarde naar de gewenste grootte */
+}
+
+article::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-left: 4px solid #000000; /* Verander deze kleur naar een kleur naar keuze */
+}
+
