@@ -13,17 +13,17 @@
 }
 
 .box:nth-child(1) {
-    background-color: #3498db; /* Eerste box blauw */
+    background-color: #0d00ff;
 }
 
 .box:nth-child(2) {
-    background-color: #e74c3c; /* Tweede box rood */
+    background-color: #000000;
 }
 
 .box:nth-child(3) {
-    background-color: #2ecc71; /* Derde box groen */
+    background-color: #ff0000;
 }
 
 .box:nth-child(4) {
-    background-color: #f39c12; /* Vierde box oranje */
+    background-color: #00ff11;
 }
