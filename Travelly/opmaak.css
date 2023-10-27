@@ -36,9 +36,7 @@
     left: 83%;
 }
 
-img {
-    width: 100%;
-}
+
 
 
 @media screen and (max-width: 768px) {
@@ -67,14 +65,7 @@ img {
     text-align: center;
 }
 
-.image-container {
-    position: relative;
-}
 
-img {
-    max-width: 100%;
-    height: auto;
-}
 
 h1, #sta, #contact {
     position: absolute;
@@ -117,29 +108,7 @@ h1 {
     transition: background-color 0.3s ease-in-out;
 }
 
-.image-container .image-text, .image-container .image-paragraph, .image-container .paragraph {
-    position: absolute;
-    left: 5%;
-}
 
-.image-container .image-text {
-    top: 30%;
-    font-size: 40px;
-    border-bottom: 2px solid #4c6e97;
-    padding-bottom: 10px;
-}
-
-.image-container .image-paragraph {
-    top: 40%;
-    font-size: 20px;
-    font-family: 'Your-Handwriting-Font', cursive;
-}
-
-.image-container .paragraph {
-    top: 43%;
-    font-size: 20px;
-    font-family: 'Your-Handwriting-Font', cursive;
-}
 
 .black-background, .black-background1, .black-background2 {
     background-color: #131c27;
